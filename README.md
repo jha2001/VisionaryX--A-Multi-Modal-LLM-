@@ -15,11 +15,13 @@ VisionaryX- a multi-modal AI assistant is a Streamlit-based application that com
   1. Set up API Keys:
     
      **Create a .env file and add:**
-      GEMINI_API_KEY=your_google_api_key  
-      HUGGINGFACE_API_KEY=your_huggingface_api_key
+     
+      ### GEMINI_API_KEY=your_google_api_key  
+      ### HUGGINGFACE_API_KEY=your_huggingface_api_key
     
-  2. Run the Application:
-      streamlit run application.py
+  3. Run the Application:
+     
+     ### streamlit run application.py
 
 # Project Structure #
  * application.py - Main application script.

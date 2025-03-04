@@ -12,16 +12,17 @@ VisionaryX- a multi-modal AI assistant is a Streamlit-based application that com
  * PDF-to-Text - Extract and process text from PDFs efficiently using FAISS.
 
 # Local Development #
-  1. Set up API Keys:
+  ### 1. Set up API Keys:
     
      **Create a .env file and add:**
-     
-      ### GEMINI_API_KEY=your_google_api_key  
-      ### HUGGINGFACE_API_KEY=your_huggingface_api_key
+     '''bash
+       GEMINI_API_KEY=your_google_api_key  
+       HUGGINGFACE_API_KEY=your_huggingface_api_key
     
-  3. Run the Application:
+  ### 2. Run the Application:
      
-     ### streamlit run application.py
+     '''bash
+      streamlit run application.py
 
 # Project Structure #
  * application.py - Main application script.

@@ -18,8 +18,7 @@ VisionaryX- a multi-modal AI assistant is a Streamlit-based application that com
           pip install -r requirements.txt
           
   ### 2. Set up API Keys:
-    
-     **Create a .env file and add:**
+  **Create a .env file and add:**
      
      '''bash
        GEMINI_API_KEY=your_google_api_key  

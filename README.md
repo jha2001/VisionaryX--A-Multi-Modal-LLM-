@@ -14,26 +14,27 @@ VisionaryX- a multi-modal AI assistant is a Streamlit-based application that com
 # Installation #
 
    Follow these instructions to set up and run this project on your local machine.
+   
    **Note:** This project requires Python 3.10 
    
-    ### 1. # Clone the Repository:
+    ### 1. Clone the Repository:
     
          '''bash
          git clone https://github.com/your-username/VisionaryX-A-Multi-Modal-LLM.git  
          cd VisionaryX--A Multi-Modal-LLM
 
-     2. # Install Dependencies:
+    ### 2. Install Dependencies:
           '''bash
           pip install -r requirements.txt 
           
-     3. # Set up API Keys: 
+    ### 3. Set up API Keys: 
      
           **Create a .env file and add the following keys:**
           '''bash
           GEMINI_API_KEY=your_google_api_key  
           HUGGINGFACE_API_KEY=your_huggingface_api_key  
 
-     4. # Run the Application:
+    ### 4. Run the Application:
      
          '''bash
          streamlit run application.py

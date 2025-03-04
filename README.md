@@ -9,29 +9,7 @@ VisionaryX- a multi-modal AI assistant is a Streamlit-based application that com
  * Text Generation - Generate human-like responses using Google’s Gemini 1.5 Flash.
  * Text-to-Image - Convert text prompts into images using Hugging Face models.
  * Image-to-Text - Extract text from images using Gemini 1.5 Flash.
- * PDF-to-Text - Extract and process text from PDFs efficiently using FAISS.
-
-# Installation #
-
-   Follow these instructions to set up and run this project on your local machine.
-   
-   **Note:** This project requires Python 3.10 
-
-     1. Install Dependencies:
-          '''bash
-          pip install -r requirements.txt 
-          
-     2. Set up API Keys: 
-          **Create a .env file and add the following keys:**
-          
-          '''bash
-          GEMINI_API_KEY=your_google_api_key  
-          HUGGINGFACE_API_KEY=your_huggingface_api_key  
-
-     3. Run the Application:
-     
-         '''bash
-         streamlit run application.py
+ * PDF-to-Text - Extract and process text from PDFs efficiently using FAISS. 
 
 #  Usage #
 
